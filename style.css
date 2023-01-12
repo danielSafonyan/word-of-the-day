@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* --main-dark-color: #595758; */
+    --main-dark-color: #584B53;
+    --main-light-color: #FEF5EF;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: var(--main-light-color);
+}
+
+form {
+    margin: auto;
+    width: 90%;
+    font-size: 2rem;
+}
+
+#current-word {
+    width: 100%;
+    font-size: inherit;
+    border: none;
+    border-bottom: 1px solid var(--main-dark-color);
+    background-color: transparent;
+    color: var(--main-dark-color);
+}
+
+.btn-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    color: var(--main-dark-color);
+}
