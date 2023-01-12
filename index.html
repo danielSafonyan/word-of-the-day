@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Of The Day</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <script src="https://kit.fontawesome.com/ca767f7de3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form>
+    <form autocomplete="off">
         <input type="text" id="current-word">
         <div class="btn-container">
             <button class="btn" type="button" id="clear-btn"><i class="fa-regular fa-circle-xmark"></i></button>
             <button class="btn"><i class="fa-solid fa-file-arrow-down"></i></button>
         </div>
     </form>
+    <canvas id="canvas"></canvas>
 </body>
 </html>
