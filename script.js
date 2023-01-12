@@ -47,7 +47,7 @@ class App {
         const imgUrl = this.$canvas.toDataURL()
         this.$img.src = imgUrl
         this.$imgContainer.style.display = 'block'
-        this.$returnBtn.style.top = this.$canvas.height / 3
+        this.$returnBtn.style.top = `${this.$canvas.height / 3}px`
     }
 }
 
