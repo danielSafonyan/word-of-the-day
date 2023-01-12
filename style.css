@@ -47,6 +47,27 @@ canvas {
     display: none;
 }
 
+.img-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
 input {
     -webkit-appearance: none;
+    border-radius: none;
+}
+
+#return-btn {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
