@@ -4,6 +4,9 @@ class App {
         this.$currentWord = document.querySelector('#current-word')
         this.$clearBtn = document.querySelector('#clear-btn')
         this.$canvas = document.querySelector('#canvas')
+        this.$img = document.querySelector('img')
+        this.$imgContainer = document.querySelector('.img-container')
+        this.$returnBtn = document.querySelector('#return-btn')
 
         this.applyEventListners()
     }
@@ -18,6 +21,10 @@ class App {
 
         this.$clearBtn.addEventListener('click', (event) => {
             this.$currentWord.value = ''
+        })
+
+        this.$returnBtn.addEventListener('click', (event) => {
+            this.$imgContainer.style.display = 'none'
         })
     }
 
@@ -38,10 +45,8 @@ class App {
 
     saveImage() {
         const imgUrl = this.$canvas.toDataURL()
-        const $a = document.createElement('a')
-        $a.href = imgUrl
-        $a.download = 'wod.png'
-        $a.click()
+        this.$img.src = imgUrl
+        this.$imgContainer.style.display = 'block'
     }
 }
 
