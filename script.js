@@ -14,7 +14,7 @@ class App {
     applyEventListners() {
         this.$form.addEventListener('submit', (event) => {
             event.preventDefault()
-            console.log("Generating image")
+            this.$currentWord.blur()
             this.drawCanvas()
             this.saveImage()
         })
@@ -47,6 +47,7 @@ class App {
         const imgUrl = this.$canvas.toDataURL()
         this.$img.src = imgUrl
         this.$imgContainer.style.display = 'block'
+        this.$returnBtn.style.top = this.$canvas.height / 3
     }
 }
 
