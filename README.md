@@ -12,12 +12,9 @@ To start using the app, simply use the link [https://danielsafonyan.github.io/wo
 3. Save an image to your device
 4. Set an image as a wallpaper
 
-![Save an image to your device](https://github.com/danielSafonyan/word-of-the-day/blob/main/IMG_1555.PNG
-?raw=true)
+![Save an image to your device](https://i.ibb.co/rHX6002/IMG-1555.png)
 
-![Set an image as a wallpaper](https://github.com/danielSafonyan/word-of-the-day/blob/main/IMG_1556.PNG
-?raw=true)
-
+![Set an image as a wallpaper](https://i.ibb.co/rHX6002/IMG-1556.png)
 
 
 ### Tools 
