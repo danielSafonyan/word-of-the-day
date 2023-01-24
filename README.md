@@ -12,10 +12,7 @@ To start using the app, simply use the link [https://danielsafonyan.github.io/wo
 3. Save an image to your device
 4. Set an image as a wallpaper
 
-![Save an image to your device](https://i.ibb.co/rHX6002/IMG-1555.png)
-
-![Set an image as a wallpaper](https://i.ibb.co/rHX6002/IMG-1556.png)
-
+![Save an image to your device]([https://i.ibb.co/rHX6002/IMG-1555.png](https://i.ibb.co/9T31nTy/Untitled-design.png))
 
 ### Tools 
 - Vanilla JS
